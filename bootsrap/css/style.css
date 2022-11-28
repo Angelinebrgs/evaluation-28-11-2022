@@ -1,0 +1,36 @@
+body{
+    background: #ffff;
+}
+/*style du header et de tout ce qu'il contient*/
+header{
+    background:#ffc657
+}
+/*style de la nav*/
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0 10px;
+    font-size: 15px;
+}
+nav ul li{
+    padding: 0 5px;
+}
+h1{
+    color: #3d2514;
+}
+.slogan{
+    border: dotted black 2px;
+    width: 65%;
+}
+/*style du footer*/
+footer{
+    background-image: url(../img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+    width: 100%;
+}
+footer p{
+    text-align: left;
+    width: 30%;
+}
