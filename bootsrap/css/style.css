@@ -3,7 +3,7 @@ body{
 }
 /*style du header et de tout ce qu'il contient*/
 header{
-    background:#ffc657
+    background-image: url(../img/fond\ header.png);
 }
 /*style de la nav*/
 nav ul {
@@ -27,7 +27,7 @@ h1{
 }
 /*style du footer*/
 footer{
-    background-image: url(../img/fond.jpg);
+    background-image: url(../img/burger\ group\ 6.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffff;
@@ -42,4 +42,10 @@ footer p{
 }
 .b2{
     background: #bf2222;
+}
+/*responsive*/
+@media (max-width:1024px) {
+    header{
+        background-image: url(../img/fond\ header.png);
+    }
 }
